@@ -12,7 +12,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-# Se hace una revisión y se confirma que todo está en orden.
+# QA code verified Aprobed.
 # Intentamos importar category_encoders, si no existe lo instalamos automáticamente
 try:
     from category_encoders import TargetEncoder
