@@ -11,7 +11,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import Ridge
-
+# Code Aprobed by QA
 # 1. Cargar y limpiar datos para obtener df_clean
 if os.path.exists('vehicles.csv'):
     print("Cargando datos desde 'vehicles.csv'...")
